@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Natalie Yelland-Hall</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>Natalie Yelland-Hall <br>S3804985 </h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Pofile</a></li>
+      <li><a href="#">Project</a></li>
+      <li><a href="#">Ideal Job</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>About me</h1>
+<img src="img_Me.jpg" alt="Me" width="500" height="600">
+    <p>I am 25 year old currently studying IT at RMIT university. I love reading and video games and relaxing with all my pets. I live in country <br>
+ victoria on a farm with my boyfriend and his family. I grew up in north melbourne with my family and spent a lot of time practicing sports like karate <br>
+ and gymnastics.</p>
+
+
+<h1> Education </h1>
+<p> I finished high school at 17 and began a degree in biological sciences, unfortunately, due to a issue with my legs and my diabetes I was rendered <br>
+ unable to complete this study in the 3rd year due to being wheelchair bound. Since then I have been going to may different medical appionentments and trying <br>
+ to find something new to do. I chose IT as it is a subject that has always interested me, I have many memories of putting together PC's out of spare and<br>
+ hand me down parts and playing games with friends. I am hopeful that I will be able to find something within IT that interests me and that I can <br> 
+ make a career out of. </p>
+
+
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
